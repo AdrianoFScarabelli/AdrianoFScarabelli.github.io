@@ -1,1 +1,78 @@
-<h1>Adriano Fernandes</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Adriano Fernandes Scarabelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <main id="container">
+        <!-- Container da barra lateral (bio) -->
+        <aside id="bio-container">
+            <h2>Adriano Fernandes Scarabelli</h2>
+            <img id="bio-image" src="img/eu.jpg" alt="Minha foto">
+            <p>Olá meu nome é Adriano Fernandes Scarabelli,
+                estou cursando o 9º semestre do curso de <span class="hightlight">Engenharia da Computação</span>.</p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            
+            <!-- Container dos links sociais -->
+            <ul id="social-container">
+                <li><a href="https://linkedin.com/in/adriano-fernandes-scarabelli-728a31184" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/AdrianoFScarabelli?tab=overview&from=2025-02-01&to=2025-02-06" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+            </ul>
+
+            <!-- Container do email -->
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:adrianoscarabelli@gmail.com">adrianoscarabelli@gmail.com</a>
+            </div>
+        </aside>
+
+        <!-- Seção principal sobre mim -->
+        <section id="about-container">
+            <h1 id="name">Adriano Fernandes Scarabelli</h1>
+            <p id="title"><span class="highlight">Desenvolvedor Frontend</span></p>
+            <p class="description">Meus maiores conhecimentos são voltados ao desenvolvimento <span class="highlight">frontend</span>,
+                como criação de aplicativos mobile e páginas web.</p>
+            <p class="description">Procuro oportunidades de <span class="highlight">estágio na área de tecnologia</span>.</p>
+            <a href="https://github.com/AdrianoFScarabelli?tab=overview&from=2025-02-01&to=2025-02-06" target="_blank" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span>Ver projetos</span></a>
+            
+            <h2 id="skills-section-title">Meus Conhecimentos</h2>
+            <p class="description">Fique por dentro das tecnologias que eu conheço:</p>
+
+            <!-- Container das habilidades -->
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-dart-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-cplusplus-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i class="devicon-flutter-plain colored"></i>
+                    <i class="devicon-react-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Softwares</p>
+                    <i class="devicon-git-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
