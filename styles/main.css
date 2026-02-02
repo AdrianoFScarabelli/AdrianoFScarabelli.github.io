@@ -53,8 +53,8 @@
 }
 
 #bio-image {
-    width: 205px;
-    height: 205px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin-bottom: 25px;
 }
@@ -159,6 +159,16 @@
     flex-wrap: wrap;
     margin-top: 25px;
 }
+
+.svg-icon-li {
+    height: 30px;
+}
+
+.svg-icon {
+    height: 48px;
+    width: 50px;
+}
+
 
 .skills-box {
     flex: 1 1 33%;
